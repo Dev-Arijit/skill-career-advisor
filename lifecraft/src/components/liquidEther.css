@@ -1,0 +1,9 @@
+.liquid-ether-container {
+  position: fixed;   /* make it stick to viewport */
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;     /* <-- this is the fix */
+  z-index: 0;       /* send behind all content */
+  overflow: hidden;
+}
